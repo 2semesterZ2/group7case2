@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+}
+
+#wrapper {
+	width: 52.5em;
+	height: auto;
+	background-color: #ccc;
+	margin: 0 auto;
+}
+
+/*header*/
+h1 {
+	font-family: 'Cormorant SC', serif;
+	letter-spacing: 0.05em;
+	display: block;
+    font-size: 2.2em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+	padding-top: 0.3em;
+    font-weight: bold;
+	color: #F9F6F6;
+	text-align: center;
+}
+
+.header {
+	background-color: #002546;
+	height: 4em;
+}
+
+/*main*/
+h2 {
+	color: #0E0E0E;
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    
+	text-align: center;
+}
+.list {
+	display: block;
+	margin: 0 auto;
+	
+}
+
+.head {
+	width: 10em;
+	height: 13.5em;
+	margin-bottom: 0;
+	margin-left: 4em;
+	margin-right: 4em;
+	margin-top: 4em;
+	border-radius: 15em;
+}
+
+img .head {
+	border: solid 3px #7D080A;
+}
+
+.first {
+	float: right;
+	clear: both;
+	margin-right: 6em;
+	}
+
+.second {
+	margin-left: 6em;
+
+}
+
+ul li {
+	font-size: 1.5em;
+	font-weight: 800;
+	display: inline;
+	letter-spacing: 0.1em;
+	margin: 4.1em;
+	
+}
+
+ul {
+	text-align: center;
+}
+/*footer*/
+.footer {
+	background-color: #002546;
+	height: 4em;
+	
+}
+
+.logo {
+	margin-top: 0.2em;
+	height: 3.5em;
+}
+/*media tablet*/
+@media only screen and (min-width: 600px) {
+	#wrapper {
+		width: 100%;
+	}
+}
+
+
+@media only screen and (min-width: 1024px) {
+	#wrapper {
+		width: 52.5em;
+	}
+}
