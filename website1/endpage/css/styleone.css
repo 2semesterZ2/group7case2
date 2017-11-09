@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+#wrapper {
+    width: 52.5em;
+    height: auto;
+    background-color: #fbfbfb;
+    margin: 0 auto;
+}
+/*header*/
+h1 {
+    font-family: 'Cormorant SC', serif;
+    letter-spacing: 0.05em;
+    display: block;
+    font-size: 2.2em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0.3em;
+    font-weight: bold;
+    color: #F9F6F6;
+    text-align: center;
+}
+.header {
+    background-color: #c7e8f9;
+    height: 4em;
+}
+/*main*/
+h2 {
+    color: #0E0E0E;
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 2em;
+    margin-right: 0;
+}
+img {
+    height: 28em;
+    margin-left: 2em;
+}
+h3 {
+    font-family: 'Cormorant SC', serif;
+    display: block;
+    font-size: 2em;
+    margin-left: 11.5em;
+    margin-right: 0;
+    font-weight: bold;
+	 margin-top: 1.2em
+}
+p {
+    background-color: white;
+    padding: 1em;
+    font-size: 1.3em;
+	text-align: center;
+    width: 25em;
+    border: solid 1.5px #060606;
+    border-radius: 2.5em;
+    position: absolute;
+    top: 8em;
+    left: 28em;
+}
+/*footer*/
+.footer {
+    background-color: #c7e8f9;
+    height: 4em;
+}
+.logo {
+    margin-top: 0.2em;
+    height: 3.5em;
+}
+#button {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #050505;
+    background-color: #E4C829;
+    float: right;
+    position: relative;
+    top: 0.3em;
+    margin-right: 1em;
+    padding: 0.4em 0.7em;
+    border-radius: 1em;
+}
+
+

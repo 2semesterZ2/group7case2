@@ -55,13 +55,13 @@ h2 {
 }
 
 .head {
-	width: 10em;
-	height: 13.5em;
+	width: 12em;
+	height: auto;
 	margin-bottom: 0;
 	margin-left: 4em;
 	margin-right: 4em;
 	margin-top: 4em;
-	border-radius: 15em;
+	
 }
 
 img .head {
@@ -79,14 +79,6 @@ img .head {
 
 }
 
-ul li {
-	font-size: 1.5em;
-	font-weight: 800;
-	display: inline;
-	letter-spacing: 0.1em;
-	margin: 4.1em;
-	
-}
 
 ul {
 	text-align: center;
@@ -94,13 +86,13 @@ ul {
 /*footer*/
 .footer {
 	background-color: #002546;
-	height: 4em;
+	height: 4.2em;
 	
 }
 
 .logo {
 	margin-top: 0.2em;
-	height: 3.5em;
+	height: 3.7em;
 }
 /*media tablet*/
 @media only screen and (min-width: 600px) {

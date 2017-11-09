@@ -12,7 +12,7 @@ body {
 #wrapper {
 	width: 52.5em;
 	height: auto;
-	background-color: #ccc;
+	background-color: #fbfbfb;
 	margin: 0 auto;
 }
 
@@ -32,7 +32,7 @@ h1 {
 }
 
 .header {
-	background-color: #002546;
+	background-color: #bf1e2e;
 	height: 4em;
 }
 
@@ -65,7 +65,7 @@ h3 {
 }
 
 p {
-	background-color: aliceblue;
+	background-color: white;
 	padding: 1em;
 	font-size: 1.3em;
 	width: 25em;
@@ -74,7 +74,7 @@ p {
 	position: absolute;
 	top: 8em;
 	left: 28em;
-	
+	text-align: center;
 }
 
 
@@ -82,7 +82,7 @@ p {
 
 /*footer*/
 .footer {
-	background-color: #002546;
+	background-color: #bf1e2e;
 	height: 4em;
 	
 }
